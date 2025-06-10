@@ -1,0 +1,80 @@
+{
+    "nav": {
+        "about": "HAKKIMIZDA",
+        "services": "HİZMETLER",
+        "service_areas": "HİZMET BÖLGELERİMİZ",
+        "gallery": "GALERİ",
+        "blog": "BLOG",
+        "contact": "İLETİŞİM"
+    },
+    "contact": {
+        "phone": "+90 537 742 06 68"
+    },
+    "slider": {
+        "title1": "Eşya Paketleme",
+        "desc1": "Eşyalarınızın güvenliği bizim için en önemli konudur. Bu nedenle hem şehir içi evden eve nakliye fiyatları hem de şehirler arası nakliyat ücretleri konusunda şeffaf bir politika izliyoruz ve her müşterimize en uygun ve rekabetçi fiyatları sunuyoruz.",
+        "title2": "Şehir İçi Nakliyat",
+        "desc2": "Profesyonel ekibimiz ve modern araçlarımızla şehir içi nakliyat hizmetlerimizde kaliteli ve güvenli taşımacılık sunuyoruz.",
+        "title3": "Şehirler Arası Nakliyat",
+        "desc3": "Türkiye'nin her noktasına güvenli ve hızlı şehirler arası nakliyat hizmeti veriyoruz.",
+        "button": "DETAYLAR"
+    },
+    "about": {
+        "title": "Hakkımızda",
+        "desc": "Formül Nakliyat, 2005 yılından bu yana evden eve nakliyat, nakliye, şehirler arası nakliyat, şehir içi taşımacılık ve parça eşya taşıma nakliye hizmetleri sunan köklü ve güvenilir bir firmadır. Geniş hizmet ağımızla, bireysel ve kurumsal müşterilerimize profesyonel çözümler sağlamaktayız. Evden eve nakliyat sektöründe uzun yıllardır edindiğimiz deneyimle, her taşınma sürecini özel bir proje olarak değerlendiriyoruz. Eşyalarınızın güvenliği bizim için en önemli konudur. Bu nedenle hem şehir içi evden eve nakliye fiyatları hem de şehirler arası nakliyat ücretleri konusunda şeffaf bir politika izliyoruz ve her müşterimize en uygun ve rekabetçi fiyatları sunuyoruz."
+    },
+    "services": {
+        "title": "HİZMETLERİMİZ",
+        "service1": "Şehir İçi Nakliyat",
+        "service2": "Şehirler Arası Nakliyat",
+        "service3": "Eşya Paketleme",
+        "service4": "Parça Eşya Taşıma",
+        "service5": "Ofis Taşımacılığı",
+        "service6": "Eşya Depolama",
+        "details": "DETAYLAR"
+    },
+    "stats": {
+        "item1": "PARÇA EŞYA TAŞIMA",
+        "item2": "EŞYA DEPOLAMA",
+        "item3": "ŞEHİR İÇİ NAKLİYAT",
+        "item4": "ŞEHİRLER ARASI"
+    },
+    "service_areas": {
+        "title": "HİZMET BÖLGELERİMİZ",
+        "area1": "İstanbul Ankara Arası Nakliye",
+        "area2": "İstanbul İzmir Arası Nakliye",
+        "area3": "İstanbul Antalya Arası Nakliye",
+        "details": "DETAYLAR"
+    },
+    "blog": {
+        "title": "BLOG",
+        "post1": "Evden Eve Nakliyatta Dikkat Edilmesi Gerekenler",
+        "post2": "Eşyalarınızı Güvenle Paketlemenin Yolları",
+        "post3": "Şehirler Arası Nakliyatta Profesyonel Hizmet",
+        "read_more": "Devamını Oku"
+    },
+    "quote": {
+        "title": "Teklif Formu",
+        "name": "Adınız / Soyadınız",
+        "phone": "Telefon numaranız",
+        "email": "E-posta adresiniz",
+        "message": "Açıklama",
+        "button": "Teklif Al"
+    },
+    "footer": {
+        "quick_menu": "Hızlı Menü",
+        "europe_areas": "Avrupa Yakası Bölgeler",
+        "asia_areas": "Anadolu Yakası Bölgeler",
+        "contact_info": "İletişim Bilgileri",
+        "address": "Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul",
+        "hours": "24 Saat Aktifiz",
+        "newsletter": "E-Posta Bültenimize Kaydolun",
+        "newsletter_desc": "Düzenli olarak hizmetlerimiz hakkında bilgilendirici bültenler gönderiyoruz.",
+        "newsletter_placeholder": "E-mail adresinizi yazın",
+        "subscribe": "GÖNDER VE KAYDOL",
+        "copyright": "© 2025 Formül Nakliyat. Tüm Hakları Saklıdır.",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Kullanım Şartları"
+    }
+}
+

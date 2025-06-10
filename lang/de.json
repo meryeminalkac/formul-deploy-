@@ -1,0 +1,80 @@
+{
+    "nav": {
+        "about": "ÜBER UNS",
+        "services": "DIENSTLEISTUNGEN",
+        "service_areas": "SERVICEGEBIETE",
+        "gallery": "GALERIE",
+        "blog": "BLOG",
+        "contact": "KONTAKT"
+    },
+    "contact": {
+        "phone": "+90 534 926 50 64"
+    },
+    "slider": {
+        "title1": "Verpackung von Gegenständen",
+        "desc1": "Die Sicherheit Ihrer Habseligkeiten hat für uns höchste Priorität. Daher verfolgen wir eine transparente Politik in Bezug auf die Preise für lokale und Fernumzüge und bieten allen unseren Kunden die geeignetsten und wettbewerbsfähigsten Preise an.",
+        "title2": "Lokaler Umzug",
+        "desc2": "Wir bieten qualitativ hochwertige und sichere Transportdienstleistungen für lokale Umzüge mit unserem professionellen Team und modernen Fahrzeugen.",
+        "title3": "Fernumzug",
+        "desc3": "Wir bieten sichere und schnelle Fernumzugsdienste an jeden Punkt in der Türkei.",
+        "button": "DETAILS"
+    },
+    "about": {
+        "title": "Über Uns",
+        "desc": "Formül Nakliyat ist ein etabliertes und zuverlässiges Unternehmen, das seit 2005 Haus-zu-Haus-Umzüge, Transport, Fernumzüge, lokale Transporte und Teilgütertransporte anbietet. Mit unserem umfangreichen Servicenetzwerk bieten wir professionelle Lösungen für unsere individuellen und geschäftlichen Kunden. Mit unserer langjährigen Erfahrung im Bereich der Haus-zu-Haus-Umzüge bewerten wir jeden Umzugsprozess als ein spezielles Projekt. Die Sicherheit Ihrer Habseligkeiten hat für uns höchste Priorität. Daher verfolgen wir eine transparente Politik in Bezug auf die Preise für lokale und Fernumzüge und bieten allen unseren Kunden die geeignetsten und wettbewerbsfähigsten Preise an."
+    },
+    "services": {
+        "title": "UNSERE DIENSTLEISTUNGEN",
+        "service1": "Lokaler Umzug",
+        "service2": "Fernumzug",
+        "service3": "Verpackung von Gegenständen",
+        "service4": "Teilgütertransport",
+        "service5": "Büroumzug",
+        "service6": "Lagerung von Gegenständen",
+        "details": "DETAILS"
+    },
+    "stats": {
+        "item1": "TEILGÜTERTRANSPORT",
+        "item2": "LAGERUNG VON GEGENSTÄNDEN",
+        "item3": "LOKALER UMZUG",
+        "item4": "FERNUMZUG"
+    },
+    "service_areas": {
+        "title": "SERVICEGEBIETE",
+        "area1": "Istanbul Ankara Umzug",
+        "area2": "Istanbul Izmir Umzug",
+        "area3": "Istanbul Antalya Umzug",
+        "details": "DETAILS"
+    },
+    "blog": {
+        "title": "BLOG",
+        "post1": "Was bei Haus-zu-Haus-Umzügen zu beachten ist",
+        "post2": "Möglichkeiten, Ihre Habseligkeiten sicher zu verpacken",
+        "post3": "Professioneller Service bei Fernumzügen",
+        "read_more": "Weiterlesen"
+    },
+    "quote": {
+        "title": "Angebotsformular",
+        "name": "Ihr Name / Nachname",
+        "phone": "Ihre Telefonnummer",
+        "email": "Ihre E-Mail-Adresse",
+        "message": "Beschreibung",
+        "button": "Angebot erhalten"
+    },
+    "footer": {
+        "quick_menu": "Schnellmenü",
+        "europe_areas": "Regionen auf der europäischen Seite",
+        "asia_areas": "Regionen auf der anatolischen Seite",
+        "contact_info": "Kontaktinformationen",
+        "address": "Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul",
+        "hours": "24 Stunden aktiv",
+        "newsletter": "Abonnieren Sie unseren Newsletter",
+        "newsletter_desc": "Wir senden regelmäßig informative Newsletter über unsere Dienstleistungen.",
+        "newsletter_placeholder": "Geben Sie Ihre E-Mail-Adresse ein",
+        "subscribe": "SENDEN UND ABONNIEREN",
+        "copyright": "© 2025 Formül Nakliyat. Alle Rechte vorbehalten.",
+        "privacy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen"
+    }
+}
+

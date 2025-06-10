@@ -1,0 +1,80 @@
+{
+    "nav": {
+        "about": "CHI SIAMO",
+        "services": "SERVIZI",
+        "service_areas": "ZONE DI SERVIZIO",
+        "gallery": "GALLERIA",
+        "blog": "BLOG",
+        "contact": "CONTATTI"
+    },
+    "contact": {
+        "phone": "+90 531 696 60 36"
+    },
+    "slider": {
+        "title1": "Imballaggio Oggetti",
+        "desc1": "La sicurezza dei vostri beni è la nostra massima priorità. Pertanto, seguiamo una politica trasparente per quanto riguarda i prezzi dei traslochi locali e a lunga distanza e offriamo i prezzi più adatti e competitivi a tutti i nostri clienti.",
+        "title2": "Trasloco Locale",
+        "desc2": "Offriamo servizi di trasporto sicuri e di qualità per i traslochi locali con il nostro team professionale e veicoli moderni.",
+        "title3": "Trasloco a Lunga Distanza",
+        "desc3": "Forniamo servizi di trasloco a lunga distanza sicuri e veloci in ogni punto della Turchia.",
+        "button": "DETTAGLI"
+    },
+    "about": {
+        "title": "Chi Siamo",
+        "desc": "Formül Nakliyat è un'azienda consolidata e affidabile che fornisce servizi di trasloco da casa a casa, trasporto, trasloco a lunga distanza, trasporto locale e trasporto parziale di oggetti dal 2005. Con la nostra ampia rete di servizi, forniamo soluzioni professionali ai nostri clienti individuali e aziendali. Con i nostri anni di esperienza nel settore dei traslochi da casa a casa, valutiamo ogni processo di trasloco come un progetto speciale. La sicurezza dei vostri beni è la nostra massima priorità. Pertanto, seguiamo una politica trasparente per quanto riguarda i prezzi dei traslochi locali e a lunga distanza e offriamo i prezzi più adatti e competitivi a tutti i nostri clienti."
+    },
+    "services": {
+        "title": "I NOSTRI SERVIZI",
+        "service1": "Trasloco Locale",
+        "service2": "Trasloco a Lunga Distanza",
+        "service3": "Imballaggio Oggetti",
+        "service4": "Trasporto Parziale di Oggetti",
+        "service5": "Trasloco Uffici",
+        "service6": "Deposito Oggetti",
+        "details": "DETTAGLI"
+    },
+    "stats": {
+        "item1": "TRASPORTO PARZIALE DI OGGETTI",
+        "item2": "DEPOSITO OGGETTI",
+        "item3": "TRASLOCO LOCALE",
+        "item4": "LUNGA DISTANZA"
+    },
+    "service_areas": {
+        "title": "ZONE DI SERVIZIO",
+        "area1": "Trasloco Istanbul Ankara",
+        "area2": "Trasloco Istanbul Izmir",
+        "area3": "Trasloco Istanbul Antalya",
+        "details": "DETTAGLI"
+    },
+    "blog": {
+        "title": "BLOG",
+        "post1": "Cose da Considerare nel Trasloco da Casa a Casa",
+        "post2": "Modi per Imballare i Vostri Beni in Sicurezza",
+        "post3": "Servizio Professionale nel Trasloco a Lunga Distanza",
+        "read_more": "Leggi di più"
+    },
+    "quote": {
+        "title": "Modulo Preventivo",
+        "name": "Il tuo nome / cognome",
+        "phone": "Il tuo numero di telefono",
+        "email": "Il tuo indirizzo email",
+        "message": "Descrizione",
+        "button": "Richiedi Preventivo"
+    },
+    "footer": {
+        "quick_menu": "Menu Rapido",
+        "europe_areas": "Regioni Lato Europeo",
+        "asia_areas": "Regioni Lato Anatolico",
+        "contact_info": "Informazioni di Contatto",
+        "address": "Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul",
+        "hours": "Attivo 24 Ore",
+        "newsletter": "Iscriviti alla Nostra Newsletter",
+        "newsletter_desc": "Inviamo regolarmente newsletter informative sui nostri servizi.",
+        "newsletter_placeholder": "Inserisci il tuo indirizzo email",
+        "subscribe": "INVIA E ISCRIVITI",
+        "copyright": "© 2025 Formül Nakliyat. Tutti i diritti riservati.",
+        "privacy": "Politica sulla Privacy",
+        "terms": "Termini di Utilizzo"
+    }
+}
+

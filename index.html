@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formül Nakliyat - Evden Eve Nakliyat ve Taşımacılık</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Üst Bilgi Çubuğu -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="social-icons">
+                        <a href="#" title="Telefon"><i class="fas fa-phone"></i></a>
+                        <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="language-selector">
+                        <a href="#" data-lang="tr" class="active">TR</a>
+                        <a href="#" data-lang="en">EN</a>
+                        <a href="#" data-lang="it">IT</a>
+                        <a href="#" data-lang="de">DE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/formül logo 2.png" alt="Formül Nakliyat" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <nav class="main-nav">
+                        <ul class="nav-list">
+                            <li><a href="hakkimizda.html" class="nav-link" data-i18n="nav.about">HAKKIMIZDA</a></li>
+                            <li><a href="hizmetler.html" class="nav-link" data-i18n="nav.services">HİZMETLER</a></li>
+                            <li><a href="hizmet-bolgeleri.html" class="nav-link" data-i18n="nav.service_areas">HİZMET BÖLGELERİMİZ</a></li>
+                            <li><a href="galeri.html" class="nav-link" data-i18n="nav.gallery">GALERİ</a></li>
+                            <li><a href="iletisim.html" class="nav-link" data-i18n="nav.contact">İLETİŞİM</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 text-end">
+                    <div class="contact-info">
+                        <a href="tel:+905377420668" class="phone-number">
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="phone-text" data-i18n="contact.phone">+90 537 742 06 68</span>
+                        </a>
+                    </div>
+                    <div class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobil Menü -->
+    <div class="mobile-menu">
+        <div class="container">
+            <div class="mobile-menu-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Formül Nakliyat" class="img-fluid">
+                    </a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="mobile-menu-content">
+                <ul class="mobile-nav-list">
+                    <li><a href="hakkimizda.html" data-i18n="nav.about">HAKKIMIZDA</a></li>
+                    <li><a href="hizmetler.html" data-i18n="nav.services">HİZMETLER</a></li>
+                    <li><a href="hizmet-bolgeleri.html" data-i18n="nav.service_areas">HİZMET BÖLGELERİMİZ</a></li>
+                    <li><a href="galeri.html" data-i18n="nav.gallery">GALERİ</a></li>
+                    <li><a href="iletisim.html" data-i18n="nav.contact">İLETİŞİM</a></li>
+                </ul>
+                <div class="mobile-contact">
+                    <a href="tel:+905377420668" class="mobile-phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <span data-i18n="contact.phone">+90 537 742 06 68</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ana Slider -->
+    <section class="main-slider">
+        <div class="slider-container">
+            <div class="slider-item active">
+                <img src="images/ilk animasyon için.jpeg" alt="Formül Nakliyat" class="img-fluid">
+                <div class="slider-content">
+                    <h1 data-i18n="slider.title1">Eşya Paketleme</h1>
+                    <p data-i18n="slider.desc1">Eşyalarınızın güvenliği bizim için en önemli konudur. Bu nedenle hem şehir içi evden eve nakliye fiyatları hem de şehirler arası nakliyat ücretleri konusunda şeffaf bir politika izliyoruz ve her müşterimize en uygun ve rekabetçi fiyatları sunuyoruz.</p>
+                    <a href="hizmetler.html" class="btn btn-primary" data-i18n="slider.button">DETAYLAR</a>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/animasyon 22.jpg" alt="Formül Nakliyat" class="img-fluid">
+                <div class="slider-content">
+                    <h1 data-i18n="slider.title2">Şehir İçi Nakliyat</h1>
+                    <p data-i18n="slider.desc2">Profesyonel ekibimiz ve modern araçlarımızla şehir içi nakliyat hizmetlerimizde kaliteli ve güvenli taşımacılık sunuyoruz.</p>
+                    <a href="hizmetler.html" class="btn btn-primary" data-i18n="slider.button">DETAYLAR</a>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/animasyon 33.avif" alt="Formül Nakliyat" class="img-fluid">
+                <div class="slider-content">
+                    <h1 data-i18n="slider.title3">Şehirler Arası Nakliyat</h1>
+                    <p data-i18n="slider.desc3">Türkiye'nin her noktasına güvenli ve hızlı şehirler arası nakliyat hizmeti veriyoruz.</p>
+                    <a href="hizmetler.html" class="btn btn-primary" data-i18n="slider.button">DETAYLAR</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <span class="slider-dot active" data-slide="0"></span>
+            <span class="slider-dot" data-slide="1"></span>
+            <span class="slider-dot" data-slide="2"></span>
+        </div>
+        <div class="slider-arrows">
+            <div class="slider-prev"><i class="fas fa-chevron-left"></i></div>
+            <div class="slider-next"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Bölümü -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="about-image">
+                        <img src="images/gülen yüzlü adam.avif" alt="Formül Nakliyat" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h2 data-i18n="about.title">Hakkımızda</h2>
+                        <p data-i18n="about.desc">Formül Nakliyat, 2005 yılından bu yana evden eve nakliyat, nakliye, şehirler arası nakliyat, şehir içi taşımacılık ve parça eşya taşıma nakliye hizmetleri sunan köklü ve güvenilir bir firmadır. Geniş hizmet ağımızla, bireysel ve kurumsal müşterilerimize profesyonel çözümler sağlamaktayız. Evden eve nakliyat sektöründe uzun yıllardır edindiğimiz deneyimle, her taşınma sürecini özel bir proje olarak değerlendiriyoruz. Eşyalarınızın güvenliği bizim için en önemli konudur. Bu nedenle hem şehir içi evden eve nakliye fiyatları hem de şehirler arası nakliyat ücretleri konusunda şeffaf bir politika izliyoruz ve her müşterimize en uygun ve rekabetçi fiyatları sunuyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetlerimiz -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="services.title">HİZMETLERİMİZ</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/animasyon 33.avif" alt="Şehir İçi Nakliyat" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.service1">Şehir İçi Nakliyat</h3>
+                            <a href="hizmetler.html" class="btn btn-service" data-i18n="services.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/şehirlerarası nakliyat.png" alt="Şehirler Arası Nakliyat" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.service2">Şehirler Arası Nakliyat</h3>
+                            <a href="hizmetler.html" class="btn btn-service" data-i18n="services.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/paketleme.jpeg" alt="Eşya Paketleme" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.service3">Eşya Paketleme</h3>
+                            <a href="hizmetler.html" class="btn btn-service" data-i18n="services.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/parça eşya taşıma.jpeg" alt="Parça Eşya Taşıma" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.service4">Parça Eşya Taşıma</h3>
+                            <a href="hizmetler.html" class="btn btn-service" data-i18n="services.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/ofis taşımacılığı.jpeg" alt="Ofis Taşımacılığı" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.service5">Ofis Taşımacılığı</h3>
+                            <a href="hizmetler.html" class="btn btn-service" data-i18n="services.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/eşya depolama.jpeg" alt="Eşya Depolama" class="img-fluid">
+                        </div>
+                        <div class="service-content">
+                            <h3 data-i18n="services.service6">Eşya Depolama</h3>
+                            <a href="hizmetler.html" class="btn btn-service" data-i18n="services.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İstatistikler -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <div class="stat-number">746</div>
+                        <div class="stat-title" data-i18n="stats.item1">PARÇA EŞYA TAŞIMA</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                        <div class="stat-number">157</div>
+                        <div class="stat-title" data-i18n="stats.item2">EŞYA DEPOLAMA</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="stat-number">116</div>
+                        <div class="stat-title" data-i18n="stats.item3">ŞEHİR İÇİ NAKLİYAT</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <div class="stat-number">76</div>
+                        <div class="stat-title" data-i18n="stats.item4">ŞEHİRLER ARASI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmet Bölgelerimiz -->
+    <section class="service-areas-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="service_areas.title">HİZMET BÖLGELERİMİZ</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="area-card">
+                        <div class="area-image">
+                            <img src="images/istanbul ankara arası nakliye.png" alt="İstanbul Ankara Arası Nakliye" class="img-fluid">
+                        </div>
+                        <div class="area-content">
+                            <h3 data-i18n="service_areas.area1">İstanbul Ankara Arası Nakliye</h3>
+                            <a href="hizmet-bolgeleri.html" class="btn btn-area" data-i18n="service_areas.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="area-card">
+                        <div class="area-image">
+                            <img src="images/istanbul izmir arası.jpeg" alt="İstanbul İzmir Arası Nakliye" class="img-fluid">
+                        </div>
+                        <div class="area-content">
+                            <h3 data-i18n="service_areas.area2">İstanbul İzmir Arası Nakliye</h3>
+                            <a href="hizmet-bolgeleri.html" class="btn btn-area" data-i18n="service_areas.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="area-card">
+                        <div class="area-image">
+                            <img src="images/istanbul antalya arası nakliye.jpg" alt="İstanbul Antalya Arası Nakliye" class="img-fluid">
+                        </div>
+                        <div class="area-content">
+                            <h3 data-i18n="service_areas.area3">İstanbul Antalya Arası Nakliye</h3>
+                            <a href="hizmet-bolgeleri.html" class="btn btn-area" data-i18n="service_areas.details">DETAYLAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teklif Formu -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="quote-image">
+                        <img src="images/müşteri temsilcisi.png" alt="Teklif Formu" class="img-fluid">
+                    </div>
+                </div>   
+                <div class="col-md-6">
+                    <div class="quote-form">
+                        <h2 data-i18n="quote.title">Teklif Formu</h2>
+                         <form id="quoteForm">
+>
+                            <div class="form-group">
+                                <label for="name" data-i18n="quote.name">Adınız / Soyadınız</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" data-i18n="quote.phone">Telefon numaranız</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-i18n="quote.email">E-posta adresiniz</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-i18n="quote.message">Açıklama</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-i18n="quote.button">Teklif Al</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-logo">
+                        <img src="images/logo-white.png" alt="Formül Nakliyat" class="img-fluid">
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4 data-i18n="footer.quick_menu">Hızlı Menü</h4>
+                    <ul class="footer-links">
+                        <li><a href="hakkimizda.html" data-i18n="nav.about">Hakkımızda</a></li>
+                        <li><a href="hizmetler.html" data-i18n="nav.services">Hizmetlerimiz</a></li>
+                        <li><a href="hizmet-bolgeleri.html" data-i18n="footer.europe_areas">Avrupa Yakası Bölgeler</a></li>
+                        <li><a href="hizmet-bolgeleri.html" data-i18n="footer.asia_areas">Anadolu Yakası Bölgeler</a></li>
+                        <li><a href="iletisim.html" data-i18n="nav.contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 data-i18n="footer.contact_info">İletişim Bilgileri</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer.address">Veysel Karani Mah. Zaloğlu Rüstem Cad.Sancaktepe/İstanbul</span></p>
+                        <p class="contact-phone-tr"><i class="fas fa-phone"></i> <span>+90 537 742 06 68</span></p>
+                        <p class="contact-phone-en-it"><i class="fas fa-phone"></i> <span>+90 531 696 60 36</span></p>
+                        <p class="contact-phone-de"><i class="fas fa-phone"></i> <span>+90 534 926 50 64</span></p>
+                        <p><i class="fas fa-envelope"></i> <span>meyranakliyat@gmail.com</span></p>
+                        <p><i class="fas fa-clock"></i> <span data-i18n="footer.hours">24 Saat Aktifiz</span></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4 data-i18n="footer.newsletter">E-Posta Bültenimize Kaydolun</h4>
+                    <p data-i18n="footer.newsletter_desc">Düzenli olarak hizmetlerimiz hakkında bilgilendirici bültenler gönderiyoruz.</p>
+                    <form class="footer-newsletter">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="E-mail adresinizi yazın" data-i18n="footer.newsletter_placeholder" required>
+                            <button class="btn btn-primary" type="submit" data-i18n="footer.subscribe">GÖNDER VE KAYDOL</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="copyright" data-i18n="footer.copyright">© 2025 Formül Nakliyat. Tüm Hakları Saklıdır.</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p class="footer-links">
+                            <a href="#" data-i18n="footer.privacy">Gizlilik Politikası</a> | 
+                            <a href="#" data-i18n="footer.terms">Kullanım Şartları</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Butonu -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/905377420668" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Arama Butonu -->
+    <div class="call-button">
+        <a href="tel:+905377420668">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- i18next -->
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formül Nakliyat - Hizmetlerimiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Üst Bilgi -->
+    <div class="top-bar text-white py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="social-icons">
+                        <a href="tel:+905377420668" class="text-white me-3" title="Telefon"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/905377420668" class="text-white me-3" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-white" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="language-selector">
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="tr">TR</a>
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="en">EN</a>
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="it">IT</a>
+                        <a href="#" class="text-white lang-btn" data-lang="de">DE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menü -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/formül logo 2.png" alt="Formül Nakliyat" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html" id="nav-about">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="hizmetler.html" id="nav-services">HİZMETLER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hizmet-bolgeleri.html" id="nav-service-areas">HİZMET BÖLGELERİMİZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html" id="nav-gallery">GALERİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html" id="nav-contact">İLETİŞİM</a>
+                    </li>
+                </ul>
+                <div class="ms-3 d-none d-lg-block">
+                    <a href="tel:+905377420668" class="btn btn-primary rounded-pill phone-btn">
+                        <i class="fas fa-phone-alt me-2"></i>
+                        <span id="contact-phone">+90 537 742 06 68</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Başlık Bölümü -->    <div class="page-header text-white py-5" style="background-image: url(\'images/service1.jpg\'); background-size: cover; background-position: center; position: relative;">        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6);"></div>
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4 fw-bold" id="services-title">Hizmetlerimiz</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Anasayfa</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page" id="breadcrumb-services">Hizmetlerimiz</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hizmetler Bölümü -->
+    <section class="services-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Şehir İçi Nakliyat -->
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/istanbul izmir arası.jpeg" class="img-fluid rounded-start h-100" alt="Şehir İçi Nakliyat" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3" id="service1">Şehir İçi Nakliyat</h3>
+                                    <p class="card-text" id="service1-desc">
+                                        Profesyonel ekibimiz ve modern araçlarımızla şehir içi nakliyat hizmetlerimizde kaliteli ve güvenli taşımacılık sunuyoruz. Eşyalarınız özenle paketlenir, taşınır ve yeni adresinizde kurulur. Şehir içi nakliyat sürecinizde size zaman kazandırır ve stressiz bir taşınma deneyimi yaşatırız.
+                                    </p>
+                                    <a href="#" class="btn btn-primary mt-3" id="service1-btn">DETAYLAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Şehirler Arası Nakliyat -->
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/şehirlerarası hizmet.jpeg" class="img-fluid rounded-start h-100" alt="Şehirler Arası Nakliyat" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3" id="service2">Şehirler Arası Nakliyat</h3>
+                                    <p class="card-text" id="service2-desc">
+                                        Türkiye'nin her noktasına güvenli ve hızlı şehirler arası nakliyat hizmeti veriyoruz. Uzun mesafe taşımacılığında eşyalarınızın güvenliği için özel ambalajlama teknikleri kullanıyor, yolculuk boyunca eşyalarınızı titizlikle koruyoruz. Şehirler arası nakliyat sürecinizi sorunsuz ve zamanında tamamlıyoruz.
+                                    </p>
+                                    <a href="#" class="btn btn-primary mt-3" id="service2-btn">DETAYLAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eşya Paketleme -->
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/eşya paketleme hizmetler.jpeg" class="img-fluid rounded-start h-100" alt="Eşya Paketleme" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3" id="service3">Eşya Paketleme</h3>
+                                    <p class="card-text" id="service3-desc">
+                                        Eşyalarınızın güvenliği bizim için en önemli konudur. Profesyonel ekibimiz, her türlü eşyanızı özel ambalaj malzemeleriyle dikkatle paketler. Hassas eşyalar için özel koruma teknikleri kullanır, mobilyalarınızı demonte eder ve yeni adresinizde yeniden monte ederiz. Paketleme hizmetimizle eşyalarınız güvende, siz ise rahat olursunuz.
+                                    </p>
+                                    <a href="#" class="btn btn-primary mt-3" id="service3-btn">DETAYLAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parça Eşya Taşıma -->
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/parça eşya taşıma hizmetler.jpeg" class="img-fluid rounded-start h-100" alt="Parça Eşya Taşıma" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3" id="service4">Parça Eşya Taşıma</h3>
+                                    <p class="card-text" id="service4-desc">
+                                        Sadece birkaç parça eşyanızı taşımak mı istiyorsunuz? Formül Nakliyat olarak parça eşya taşıma hizmetimizle yanınızdayız. Ekonomik ve pratik çözümlerle, tek bir mobilya parçasından birkaç kutuya kadar her türlü eşyanızı güvenle taşıyoruz. Şehir içi ve şehirler arası parça eşya taşıma hizmetimizle zamandan ve maliyetten tasarruf edin.
+                                    </p>
+                                    <a href="#" class="btn btn-primary mt-3" id="service4-btn">DETAYLAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ofis Taşımacılığı -->
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/ofis taşımacılığı hizmetler.jpeg" class="img-fluid rounded-start h-100" alt="Ofis Taşımacılığı" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3" id="service5">Ofis Taşımacılığı</h3>
+                                    <p class="card-text" id="service5-desc">
+                                        İş sürekliliğinizi kesintiye uğratmadan ofis taşıma hizmeti sunuyoruz. Ofis mobilyaları, elektronik ekipmanlar, dosyalar ve diğer ofis malzemelerinizi özenle paketliyor ve taşıyoruz. Hafta sonu veya mesai saatleri dışında çalışarak iş akışınızı minimum düzeyde etkileyecek şekilde planlama yapıyoruz. Profesyonel ofis taşımacılığı hizmetimizle işinize odaklanmaya devam edin.
+                                    </p>
+                                    <a href="#" class="btn btn-primary mt-3" id="service5-btn">DETAYLAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eşya Depolama -->
+                <div class="col-lg-6 mb-5">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="images/eşya depolama.jpeg" class="img-fluid rounded-start h-100" alt="Eşya Depolama" style="object-fit: cover;">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3" id="service6">Eşya Depolama</h3>
+                                    <p class="card-text" id="service6-desc">
+                                        Eşyalarınızı güvenle saklayabileceğiniz depolama hizmeti sunuyoruz. Kısa veya uzun süreli depolama ihtiyaçlarınız için nem, sıcaklık ve güvenlik kontrollü depolama alanlarımızda eşyalarınız güvende olur. Taşınma sürecinizde geçici depolama veya sezonluk eşyalarınız için ideal çözüm. İhtiyacınız olduğunda eşyalarınızı istediğiniz adrese teslim ediyoruz.
+                                    </p>
+                                    <a href="#" class="btn btn-primary mt-3" id="service6-btn">DETAYLAR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neden Bizi Tercih Etmelisiniz -->
+    <section class="why-choose-us bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" id="why-choose-title">Neden Bizi Tercih Etmelisiniz?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-truck fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title" id="modern-vehicles-title">Modern Araç Filosu</h4>
+                            <p class="card-text" id="modern-vehicles-desc">Bakımlı ve modern araç filomuzla eşyalarınızı güvenle taşıyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-users fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title" id="professional-team-title">Profesyonel Ekip</h4>
+                            <p class="card-text" id="professional-team-desc">Deneyimli ve eğitimli personelimizle kaliteli hizmet sunuyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-headset fa-3x text-primary"></i>
+                            </div>
+                            <h4 class="card-title" id="customer-support-title">7/24 Müşteri Desteği</h4>
+                            <p class="card-text" id="customer-support-desc">Taşınma sürecinizin her aşamasında yanınızdayız.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teklif Formu -->
+    <section class="quote-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4" id="quote-title">Teklif Formu</h2>
+                    <p class="mb-4" id="quote-desc">Hizmetlerimiz hakkında detaylı bilgi almak ve ücretsiz teklif için formu doldurun, size en kısa sürede dönüş yapalım.</p>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label" id="quote-name">Adınız / Soyadınız</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label" id="quote-phone">Telefon numaranız</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label" id="quote-email">E-posta adresiniz</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label" id="quote-message">Açıklama</label>
+                                    <textarea class="form-control" id="message" rows="4"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="quote-button">Teklif Al</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img src="images/müşteri temsilcisi.png" alt="Teklif Al" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alt Bilgi -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <img src="images/logo-white.png" alt="Formül Nakliyat" class="mb-3" height="60">
+                    <p id="footer-desc">2005 yılından bu yana kaliteli ve güvenilir nakliyat hizmetleri sunuyoruz.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-quick-menu">Hızlı Menü</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="hakkimizda.html" class="text-white text-decoration-none" id="footer-about">HAKKIMIZDA</a></li>
+                        <li class="mb-2"><a href="hizmetler.html" class="text-white text-decoration-none" id="footer-services">HİZMETLER</a></li>
+                        <li class="mb-2"><a href="hizmet-bolgeleri.html" class="text-white text-decoration-none" id="footer-europe-areas">Avrupa Yakası Bölgeler</a></li>
+                        <li class="mb-2"><a href="hizmet-bolgeleri.html" class="text-white text-decoration-none" id="footer-asia-areas">Anadolu Yakası Bölgeler</a></li>
+                        <li class="mb-2"><a href="iletisim.html" class="text-white text-decoration-none" id="footer-contact">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-contact-info">İletişim Bilgileri</h5>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> <span id="footer-address">Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul</span></p>
+                    <p class="mb-2"><i class="fas fa-phone-alt me-2"></i> <span id="footer-phone">+90 537 742 06 68</span></p>
+                    <p class="mb-2"><i class="fas fa-envelope me-2"></i> meyranakliyat@gmail.com</p>
+                    <p class="mb-0"><i class="fas fa-clock me-2"></i> <span id="footer-hours">24 Saat Aktifiz</span></p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-newsletter">E-Posta Bültenimize Kaydolun</h5>
+                    <p id="footer-newsletter-desc">Düzenli olarak hizmetlerimiz hakkında bilgilendirici bültenler gönderiyoruz.</p>
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control" placeholder="E-mail adresinizi yazın" id="footer-newsletter-placeholder">
+                        <button class="btn btn-primary" type="button" id="footer-subscribe">GÖNDER VE KAYDOL</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-md-0" id="footer-copyright">© 2025 Formül Nakliyat. Tüm Hakları Saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3 text-decoration-none" id="footer-privacy">Gizlilik Politikası</a>
+                    <a href="#" class="text-white text-decoration-none" id="footer-terms">Kullanım Şartları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Butonu -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/905377420668" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Arama Butonu -->
+    <div class="call-button">
+        <a href="tel:+905377420668">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
+

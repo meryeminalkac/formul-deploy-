@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formül Nakliyat - Galeri</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Üst Bilgi -->
+    <div class="top-bar text-white py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="social-icons">
+                        <a href="tel:+905377420668" class="text-white me-3" title="Telefon"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/905377420668" class="text-white me-3" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-white" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="language-selector">
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="tr">TR</a>
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="en">EN</a>
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="it">IT</a>
+                        <a href="#" class="text-white lang-btn" data-lang="de">DE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menü -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/formül logo 2.png" alt="Formül Nakliyat" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html" id="nav-about">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hizmetler.html" id="nav-services">HİZMETLER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hizmet-bolgeleri.html" id="nav-service-areas">HİZMET BÖLGELERİMİZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galeri.html" id="nav-gallery">GALERİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html" id="nav-contact">İLETİŞİM</a>
+                    </li>
+                </ul>
+                <div class="ms-3 d-none d-lg-block">
+                    <a href="tel:+905377420668" class="btn btn-primary rounded-pill phone-btn">
+                        <i class="fas fa-phone-alt me-2"></i>
+                        <span id="contact-phone">+90 537 742 06 68</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Başlık Bölümü --    <div class="page-header text-white py-5" style="background-image: url(\'images/service3.jpg\'); background-size: cover; background-position: center; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6);"></div>
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4 fw-bold" id="gallery-title">Foto Galeri</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Anasayfa</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page" id="breadcrumb-gallery">Galeri</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Galeri Bölümü -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-4" id="gallery-section-title">Nakliyat Resimlerimiz</h2>
+                    <p class="mb-5" id="gallery-desc">Formül Nakliyat olarak gerçekleştirdiğimiz nakliyat hizmetlerinden bazı kareler.</p>
+                </div>
+            </div>
+
+            <div class="row" id="lightgallery">
+                <!-- Galeri Resimleri -->
+                <div class="col-md-4 mb-4" data-src="images/service1.jpg">
+                    <div class="gallery-item">
+                        <img src="images/şehirlerarası nakliyat.png" alt="Nakliyat Resmi 1" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item1">Şehir İçi Nakliyat</h5>
+                                <p id="gallery-date1">05 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/service2.jpg">
+                    <div class="gallery-item">
+                        <img src="images/şehirlerarası hizmet.jpeg" alt="Nakliyat Resmi 2" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item2">Şehirler Arası Nakliyat</h5>
+                                <p id="gallery-date2">10 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/service3.jpg">
+                    <div class="gallery-item">
+                        <img src="images/paketleme.jpeg" alt="Nakliyat Resmi 3" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item3">Eşya Paketleme</h5>
+                                <p id="gallery-date3">15 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/service4.jpg">
+                    <div class="gallery-item">
+                        <img src="images/galeri 2.jpeg" alt="Nakliyat Resmi 4" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item4">Parça Eşya Taşıma</h5>
+                                <p id="gallery-date4">20 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/service5.jpg">
+                    <div class="gallery-item">
+                        <img src="images/galeri1.jpeg" alt="Nakliyat Resmi 5" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item5">Ofis Taşımacılığı</h5>
+                                <p id="gallery-date5">25 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/service6.jpg">
+                    <div class="gallery-item">
+                        <img src="images/parça eşya taşıma hizmetler.jpeg" alt="Nakliyat Resmi 6" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item6">Eşya Depolama</h5>
+                                <p id="gallery-date6">30 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/area1.jpg">
+                    <div class="gallery-item">
+                        <img src="images/ofis taşımacılığı hizmetler.jpeg" alt="Nakliyat Resmi 7" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item7">İstanbul-Ankara Nakliyat</h5>
+                                <p id="gallery-date7">02 Haziran 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/area2.jpg">
+                    <div class="gallery-item">
+                        <img src="images/eşya depolama.jpeg" alt="Nakliyat Resmi 8" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item8">İstanbul-İzmir Nakliyat</h5>
+                                <p id="gallery-date8">05 Haziran 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-src="images/area3.jpg">
+                    <div class="gallery-item">
+                        <img src="images/galeri 3.jpeg" alt="Nakliyat Resmi 9" class="img-fluid rounded shadow">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h5 id="gallery-item9">İstanbul-Antalya Nakliyat</h5>
+                                <p id="gallery-date9">10 Haziran 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Galeri -->
+    <section class="video-gallery bg-light py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-4" id="video-gallery-title">Video Galeri</h2>
+                    <p class="mb-5" id="video-gallery-desc">Nakliyat süreçlerimizi ve hizmetlerimizi anlatan videolar.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-0">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+                            </div>
+                            <div class="p-3">
+                                <h5 id="video-title1">Evden Eve Nakliyat Nasıl Yapılır?</h5>
+                                <p class="text-muted" id="video-date1">15 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-0">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+                            </div>
+                            <div class="p-3">
+                                <h5 id="video-title2">Eşya Paketleme Teknikleri</h5>
+                                <p class="text-muted" id="video-date2">20 Mayıs 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alt Bilgi -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <img src="images/logo-white.png" alt="Formül Nakliyat" class="mb-3" height="60">
+                    <p id="footer-desc">2005 yılından bu yana kaliteli ve güvenilir nakliyat hizmetleri sunuyoruz.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-quick-menu">Hızlı Menü</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="hakkimizda.html" class="text-white text-decoration-none" id="footer-about">HAKKIMIZDA</a></li>
+                        <li class="mb-2"><a href="hizmetler.html" class="text-white text-decoration-none" id="footer-services">HİZMETLER</a></li>
+                        <li class="mb-2"><a href="hizmet-bolgeleri.html" class="text-white text-decoration-none" id="footer-europe-areas">Avrupa Yakası Bölgeler</a></li>
+                        <li class="mb-2"><a href="hizmet-bolgeleri.html" class="text-white text-decoration-none" id="footer-asia-areas">Anadolu Yakası Bölgeler</a></li>
+                        <li class="mb-2"><a href="iletisim.html" class="text-white text-decoration-none" id="footer-contact">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-contact-info">İletişim Bilgileri</h5>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> <span id="footer-address">Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul</span></p>
+                    <p class="mb-2"><i class="fas fa-phone-alt me-2"></i> <span id="footer-phone">+90 537 742 06 68</span></p>
+                    <p class="mb-2"><i class="fas fa-envelope me-2"></i> meyranakliyat@gmail.com</p>
+                    <p class="mb-0"><i class="fas fa-clock me-2"></i> <span id="footer-hours">24 Saat Aktifiz</span></p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-newsletter">E-Posta Bültenimize Kaydolun</h5>
+                    <p id="footer-newsletter-desc">Düzenli olarak hizmetlerimiz hakkında bilgilendirici bültenler gönderiyoruz.</p>
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control" placeholder="E-mail adresinizi yazın" id="footer-newsletter-placeholder">
+                        <button class="btn btn-primary" type="button" id="footer-subscribe">GÖNDER VE KAYDOL</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-md-0" id="footer-copyright">© 2025 Formül Nakliyat. Tüm Hakları Saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3 text-decoration-none" id="footer-privacy">Gizlilik Politikası</a>
+                    <a href="#" class="text-white text-decoration-none" id="footer-terms">Kullanım Şartları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Butonu -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/905377420668" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Arama Butonu -->
+    <div class="call-button">
+        <a href="tel:+905377420668">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/language.js"></script>
+    <script>
+        // Galeri için LightGallery başlatma
+        document.addEventListener('DOMContentLoaded', function() {
+            lightGallery(document.getElementById('lightgallery'), {
+                selector: '.gallery-item',
+                speed: 500,
+                download: false
+            });
+        });
+    </script>
+    <style>
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 0.25rem;
+        }
+        .gallery-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: flex-end;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+        .gallery-info {
+            color: white;
+            padding: 20px;
+            width: 100%;
+        }
+        .gallery-info h5 {
+            margin-bottom: 5px;
+        }
+        .gallery-info p {
+            margin-bottom: 0;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
+</body>
+</html>
+

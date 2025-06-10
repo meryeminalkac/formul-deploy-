@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formül Nakliyat - İletişim</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Üst Bilgi -->
+    <div class="top-bar text-white py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="social-icons">
+                        <a href="tel:+905377420668" class="text-white me-3" title="Telefon"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/905377420668" class="text-white me-3" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-white" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="language-selector">
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="tr">TR</a>
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="en">EN</a>
+                        <a href="#" class="text-white me-2 lang-btn" data-lang="it">IT</a>
+                        <a href="#" class="text-white lang-btn" data-lang="de">DE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menü -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/formül logo 2.png" alt="Formül Nakliyat" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html" id="nav-about">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hizmetler.html" id="nav-services">HİZMETLER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hizmet-bolgeleri.html" id="nav-service-areas">HİZMET BÖLGELERİMİZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html" id="nav-gallery">GALERİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="iletisim.html" id="nav-contact">İLETİŞİM</a>
+                    </li>
+                </ul>
+                <div class="ms-3 d-none d-lg-block">
+                    <a href="tel:+905377420668" class="btn btn-primary rounded-pill phone-btn">
+                        <i class="fas fa-phone-alt me-2"></i>
+                        <span id="contact-phone">+90 537 742 06 68</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Başlık Bölümü --    <div class="page-header text-white py-5" style="background-image: url(\'images/service4.jpg\'); background-size: cover; background-position: center; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6);"></div>
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4 fw-bold" id="contact-title">İletişim</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-white">Anasayfa</a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page" id="breadcrumb-contact">İletişim</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- İletişim Bilgileri -->
+    <section class="contact-info py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-phone-alt fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="h4 mb-3" id="contact-phone-title">Telefon</h3>
+                            <p class="mb-2" id="contact-phone-desc">Bize hemen ulaşın</p>
+                            <p class="mb-0 fw-bold">
+                                <a href="tel:+905377420668" class="text-dark text-decoration-none" id="contact-phone-number">+90 537 742 06 68</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-map-marker-alt fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="h4 mb-3" id="contact-address-title">Adres</h3>
+                            <p class="mb-2" id="contact-address-desc">Ofisimizi ziyaret edin</p>
+                            <p class="mb-0" id="contact-address-text">Veysel Karani mah. Zaloğlu Rüstem Cad. Sancaktepe/İstanbul</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-envelope fa-3x text-primary"></i>
+                            </div>
+                            <h3 class="h4 mb-3" id="contact-email-title">E-Posta</h3>
+                            <p class="mb-2" id="contact-email-desc">Bize mail gönderin</p>
+                            <p class="mb-0 fw-bold">
+                                <a href="mailto:meyranakliyat@gmail.com" class="text-dark text-decoration-none">meyranakliyat@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Formu ve Harita -->
+    <section class="contact-form-map py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title mb-4" id="contact-form-title">İletişim Formu</h2>
+                    <p class="mb-4" id="contact-form-desc">Sorularınız, önerileriniz veya teklif talepleriniz için aşağıdaki formu doldurabilirsiniz. En kısa sürede size dönüş yapacağız.</p>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label" id="contact-form-name">Adınız / Soyadınız</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label" id="contact-form-email">E-posta adresiniz</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label" id="contact-form-phone">Telefon numaranız</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label" id="contact-form-subject">Konu</label>
+                                    <input type="text" class="form-control" id="subject">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label" id="contact-form-message">Mesajınız</label>
+                                    <textarea class="form-control" id="message" rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="contact-form-button">GÖNDER</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4" id="contact-map-title">Konum</h2>
+                    <p class="mb-4" id="contact-map-desc">Ofisimize kolayca ulaşabilirsiniz. Aşağıdaki haritadan konumumuzu görebilirsiniz.</p>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-0">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192698.6596255894!2d28.8720964!3d41.0053215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1654267030583!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Çalışma Saatleri -->
+    <section class="working-hours bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="section-title mb-4" id="working-hours-title">Çalışma Saatleri</h2>
+                    <p class="mb-5" id="working-hours-desc">Formül Nakliyat olarak 7/24 hizmet vermekteyiz. Acil nakliyat ihtiyaçlarınız için her zaman yanınızdayız.</p>
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="row">
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="icon-box me-3">
+                                            <i class="fas fa-clock fa-2x text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-1" id="weekdays-title">Hafta İçi</h5>
+                                            <p class="mb-0" id="weekdays-hours">08:00 - 20:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3 mb-md-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="icon-box me-3">
+                                            <i class="fas fa-calendar-alt fa-2x text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-1" id="weekend-title">Hafta Sonu</h5>
+                                            <p class="mb-0" id="weekend-hours">09:00 - 18:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="d-flex align-items-center">
+                                        <div class="icon-box me-3">
+                                            <i class="fas fa-phone-volume fa-2x text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-1" id="emergency-title">Acil Durum</h5>
+                                            <p class="mb-0" id="emergency-hours">24 Saat</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dil Bazlı İletişim Bilgileri -->
+    <section class="language-contact py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title mb-4" id="language-contact-title">Dil Bazlı İletişim Bilgileri</h2>
+                    <p class="mb-5" id="language-contact-desc">Farklı dillerde hizmet vermekteyiz. Aşağıdaki numaralardan ilgili dilde destek alabilirsiniz.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <img src="https://flagcdn.com/w80/tr.png" alt="Türkçe" class="mb-3" width="60">
+                            <h4 class="mb-3" id="turkish-title">Türkçe</h4>
+                            <p class="mb-2" id="turkish-contact">İletişim</p>
+                            <p class="mb-0 fw-bold">
+                                <a href="tel:+905377420668" class="text-dark text-decoration-none">+90 537 742 06 68</a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="mailto:meyranakliyat@gmail.com" class="text-dark text-decoration-none">meyranakliyat@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <img src="https://flagcdn.com/w80/gb.png" alt="İngilizce" class="mb-3" width="60">
+                            <h4 class="mb-3" id="english-title">İngilizce</h4>
+                            <p class="mb-2" id="english-contact">Contact</p>
+                            <p class="mb-0 fw-bold">
+                                <a href="tel:+905316966036" class="text-dark text-decoration-none">+90 531 696 60 36</a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="mailto:meyranakliyat@gmail.com" class="text-dark text-decoration-none">meyranakliyat@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <img src="https://flagcdn.com/w80/it.png" alt="İtalyanca" class="mb-3" width="60">
+                            <h4 class="mb-3" id="italian-title">İtalyanca</h4>
+                            <p class="mb-2" id="italian-contact">Contatto</p>
+                            <p class="mb-0 fw-bold">
+                                <a href="tel:+905316966036" class="text-dark text-decoration-none">+90 531 696 60 36</a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="mailto:meyranakliyat@gmail.com" class="text-dark text-decoration-none">meyranakliyat@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 border-0 shadow-sm text-center">
+                        <div class="card-body p-4">
+                            <img src="https://flagcdn.com/w80/de.png" alt="Almanca" class="mb-3" width="60">
+                            <h4 class="mb-3" id="german-title">Almanca</h4>
+                            <p class="mb-2" id="german-contact">Kontakt</p>
+                            <p class="mb-0 fw-bold">
+                                <a href="tel:+905349265064" class="text-dark text-decoration-none">+90 534 926 50 64</a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="mailto:meyranakliyat@gmail.com" class="text-dark text-decoration-none">meyranakliyat@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alt Bilgi -->
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <img src="images/logo-white.png" alt="Formül Nakliyat" class="mb-3" height="60">
+                    <p id="footer-desc">2005 yılından bu yana kaliteli ve güvenilir nakliyat hizmetleri sunuyoruz.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-quick-menu">Hızlı Menü</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="hakkimizda.html" class="text-white text-decoration-none" id="footer-about">HAKKIMIZDA</a></li>
+                        <li class="mb-2"><a href="hizmetler.html" class="text-white text-decoration-none" id="footer-services">HİZMETLER</a></li>
+                        <li class="mb-2"><a href="hizmet-bolgeleri.html" class="text-white text-decoration-none" id="footer-europe-areas">Avrupa Yakası Bölgeler</a></li>
+                        <li class="mb-2"><a href="hizmet-bolgeleri.html" class="text-white text-decoration-none" id="footer-asia-areas">Anadolu Yakası Bölgeler</a></li>
+                        <li class="mb-2"><a href="iletisim.html" class="text-white text-decoration-none" id="footer-contact">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-contact-info">İletişim Bilgileri</h5>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> <span id="footer-address">Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul</span></p>
+                    <p class="mb-2"><i class="fas fa-phone-alt me-2"></i> <span id="footer-phone">+90 537 742 06 68</span></p>
+                    <p class="mb-2"><i class="fas fa-envelope me-2"></i> meyranakliyat@gmail.com</p>
+                    <p class="mb-0"><i class="fas fa-clock me-2"></i> <span id="footer-hours">24 Saat Aktifiz</span></p>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-4" id="footer-newsletter">E-Posta Bültenimize Kaydolun</h5>
+                    <p id="footer-newsletter-desc">Düzenli olarak hizmetlerimiz hakkında bilgilendirici bültenler gönderiyoruz.</p>
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control" placeholder="E-mail adresinizi yazın" id="footer-newsletter-placeholder">
+                        <button class="btn btn-primary" type="button" id="footer-subscribe">GÖNDER VE KAYDOL</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-md-0" id="footer-copyright">© 2025 Formül Nakliyat. Tüm Hakları Saklıdır.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3 text-decoration-none" id="footer-privacy">Gizlilik Politikası</a>
+                    <a href="#" class="text-white text-decoration-none" id="footer-terms">Kullanım Şartları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Butonu -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/905377420668" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Arama Butonu -->
+    <div class="call-button">
+        <a href="tel:+905377420668">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
+

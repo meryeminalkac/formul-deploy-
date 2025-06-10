@@ -1,0 +1,80 @@
+{
+    "nav": {
+        "about": "ABOUT US",
+        "services": "SERVICES",
+        "service_areas": "SERVICE AREAS",
+        "gallery": "GALLERY",
+        "blog": "BLOG",
+        "contact": "CONTACT"
+    },
+    "contact": {
+        "phone": "+90 531 696 60 36"
+    },
+    "slider": {
+        "title1": "Item Packing",
+        "desc1": "The safety of your belongings is our top priority. Therefore, we follow a transparent policy regarding both local and long-distance moving prices and offer the most suitable and competitive prices to all our customers.",
+        "title2": "Local Moving",
+        "desc2": "We offer quality and safe transportation services for local moving with our professional team and modern vehicles.",
+        "title3": "Long Distance Moving",
+        "desc3": "We provide safe and fast long-distance moving services to every point in Turkey.",
+        "button": "DETAILS"
+    },
+    "about": {
+        "title": "About Us",
+        "desc": "Formül Nakliyat is a well-established and reliable company providing home-to-home moving, transportation, long-distance moving, local transportation, and partial item transportation services since 2005. With our wide service network, we provide professional solutions to our individual and corporate customers. With our years of experience in the home-to-home moving sector, we evaluate each moving process as a special project. The safety of your belongings is our top priority. Therefore, we follow a transparent policy regarding both local and long-distance moving prices and offer the most suitable and competitive prices to all our customers."
+    },
+    "services": {
+        "title": "OUR SERVICES",
+        "service1": "Local Moving",
+        "service2": "Long Distance Moving",
+        "service3": "Item Packing",
+        "service4": "Partial Item Transportation",
+        "service5": "Office Moving",
+        "service6": "Item Storage",
+        "details": "DETAILS"
+    },
+    "stats": {
+        "item1": "PARTIAL ITEM TRANSPORTATION",
+        "item2": "ITEM STORAGE",
+        "item3": "LOCAL MOVING",
+        "item4": "LONG DISTANCE"
+    },
+    "service_areas": {
+        "title": "SERVICE AREAS",
+        "area1": "Istanbul Ankara Moving",
+        "area2": "Istanbul Izmir Moving",
+        "area3": "Istanbul Antalya Moving",
+        "details": "DETAILS"
+    },
+    "blog": {
+        "title": "BLOG",
+        "post1": "Things to Consider in Home-to-Home Moving",
+        "post2": "Ways to Pack Your Belongings Safely",
+        "post3": "Professional Service in Long Distance Moving",
+        "read_more": "Read More"
+    },
+    "quote": {
+        "title": "Quote Form",
+        "name": "Your Name / Surname",
+        "phone": "Your phone number",
+        "email": "Your e-mail address",
+        "message": "Description",
+        "button": "Get Quote"
+    },
+    "footer": {
+        "quick_menu": "Quick Menu",
+        "europe_areas": "European Side Regions",
+        "asia_areas": "Anatolian Side Regions",
+        "contact_info": "Contact Information",
+        "address": "Veysel Karani Mah. Zaloğlu Rüstem Cad. Sancaktepe/ İstanbul",
+        "hours": "24 Hours Active",
+        "newsletter": "Subscribe to Our Newsletter",
+        "newsletter_desc": "We regularly send informative newsletters about our services.",
+        "newsletter_placeholder": "Enter your e-mail address",
+        "subscribe": "SEND AND SUBSCRIBE",
+        "copyright": "© 2025 Formül Nakliyat. All Rights Reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Use"
+    }
+}
+
