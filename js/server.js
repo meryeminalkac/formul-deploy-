@@ -3,6 +3,7 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -11,6 +12,14 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+// Serve static files (HTML, CSS, JS, images, etc.)
+app.use(express.static(path.join(__dirname, '..')));
+
+// Serve index.html on root route
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'index.html'));
+});
 
 // Form Submission Route
 app.post('/send-form', async (req, res) => {
@@ -26,7 +35,7 @@ app.post('/send-form', async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'your@gmail.com',          // 💌 where the form will be sent
+    to: 'your@gmail.com', // Change this to your real email
     subject: 'New Quote Request from Website',
     text: `
       Name: ${name}
