@@ -35,7 +35,7 @@ app.post('/send-form', async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'your@gmail.com', // Change this to your real email
+    to: 'formulnakliyat@gmail.com', // Change this to your real email
     subject: 'New Quote Request from Website',
     text: `
       Name: ${name}
@@ -55,6 +55,7 @@ app.post('/send-form', async (req, res) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Listening on port ${PORT}`);
 });
+
