@@ -43,7 +43,7 @@ app.post('/send-form', async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'formulnakliyat@gmail.com', // Change this to your real email
+    to: 'meryeminalkac80@gmail.com', // Change this to your real email
     subject: 'New Quote Request from Website',
     text: `
       Name: ${name}
