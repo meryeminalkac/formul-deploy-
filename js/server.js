@@ -44,7 +44,8 @@ app.post('/send-form', async (req, res) => {
       Message: ${message}
     `,
   };
-
+  console.log('EMAIL_USER:', process.env.EMAIL_USER);
+  console.log('EMAIL_PASS exists:', !!process.env.EMAIL_PASS);
   try {
     await transporter.sendMail(mailOptions);
     res.status(200).json({ message: 'Form sent successfully' });
