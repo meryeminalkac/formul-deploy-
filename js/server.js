@@ -10,12 +10,13 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 const corsOptions = {
-  origin: ['https://yourdomain.com'], // replace with your actual frontend domain
-  methods: ['POST'],
+  origin: ['https://your-render-url.onrender.com'], // 🛠️ REPLACE with your actual frontend URL
+  methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type'],
 };
 
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // <- handles all OPTIONS preflight
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
