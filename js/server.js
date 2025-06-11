@@ -10,9 +10,9 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 const corsOptions = {
-  origin: ['https://formul-deploy-5.onrender.com'], // 🛠️ REPLACE with your actual frontend URL
+  origin: ['https://formul-deploy-5.onrender.com/'], // 🛠️ REPLACE with your actual frontend URL
   methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type'],
+  allowedHeaders: '*',
 };
 
 app.use(cors(corsOptions));
