@@ -994,7 +994,7 @@ html[lang="de"] .contact-phone-de {
 
 @media (max-width: 991px) {
     .header {
-        display: none;
+        display: flex;
     }
     
     .mobile-menu {
