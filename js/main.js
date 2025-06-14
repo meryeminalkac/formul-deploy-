@@ -133,7 +133,7 @@ $(document).ready(function() {
         };
 
         try {
-            const response = await fetch("https://formul-deploy-5.onrender.com/send-form", {
+            const response = await fetch("https://formul-backend.onrender.com/send-form", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
