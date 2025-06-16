@@ -155,11 +155,12 @@ $(document).ready(function() {
             }
             
             // API isteği gönder
-            const response = await fetch("https://formul-backend.onrender.com/send-form",{
+            const response = await fetch("https://formul-backend.onrender.com/send-form", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData)
-            });
+              });
+              
             
             // Yanıtı işle
             if (!response.ok) {
