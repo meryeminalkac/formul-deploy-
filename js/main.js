@@ -155,12 +155,16 @@ $(document).ready(function() {
             }
             
             // API isteği gönder
+            console.log("👉 Fetching:", "https://formul-backend.onrender.com/send-form");
             const url = "https://formul-backend.onrender.com/send-form".trim();
+            console.log("🧪 Final URL:", url);
+
             const response = await fetch(url, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData)
             });
+
 
               
             
