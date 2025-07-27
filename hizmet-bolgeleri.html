@@ -6,13 +6,23 @@
     <title>Formül Nakliyat - Hizmet Bölgelerimiz</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17352726058"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'AW-17352726058');
-  </script>
+      gtag('config', 'AW-17352726058');
+
+      function gtag_report_conversion_form(formElement) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17352726058/Uxu7CJzamvEaEKqsttJA',
+          'event_callback': function () {
+            formElement.submit();
+          }
+        });
+        return false;
+      }
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -241,40 +251,40 @@
     <!-- Teklif Formu -->
     <section class="quote-section py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="section-title mb-4" id="quote-title">Teklif Formu</h2>
-                    <p class="mb-4" id="quote-desc">Hizmet bölgelerimiz hakkında detaylı bilgi almak ve ücretsiz teklif için formu doldurun, size en kısa sürede dönüş yapalım.</p>
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="name" class="form-label" id="quote-name">Adınız / Soyadınız</label>
-                                    <input type="text" class="form-control" id="name">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="phone" class="form-label" id="quote-phone">Telefon numaranız</label>
-                                    <input type="tel" class="form-control" id="phone">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label" id="quote-email">E-posta adresiniz</label>
-                                    <input type="email" class="form-control" id="email">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label" id="quote-message">Açıklama</label>
-                                    <textarea class="form-control" id="message" rows="4"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary" id="quote-button">Teklif Al</button>
-                            </form>
-                        </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="section-title mb-4" id="quote-title">Teklif Formu</h2>
+              <p class="mb-4" id="quote-desc">Hizmet bölgelerimiz hakkında detaylı bilgi almak ve ücretsiz teklif için formu doldurun, size en kısa sürede dönüş yapalım.</p>
+              <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <form id="quoteForm">
+                    <div class="mb-3">
+                      <label for="name" class="form-label" id="quote-name">Adınız / Soyadınız</label>
+                      <input type="text" class="form-control" id="name">
                     </div>
+                    <div class="mb-3">
+                      <label for="phone" class="form-label" id="quote-phone">Telefon numaranız</label>
+                      <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label" id="quote-email">E-posta adresiniz</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label" id="quote-message">Açıklama</label>
+                      <textarea class="form-control" id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="quote-button">Teklif Al</button>
+                  </form>
                 </div>
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                    <img src="images/müşteri temsilcisi.png" alt="Teklif Al" class="img-fluid rounded shadow">
-                </div>
+              </div>
             </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <img src="images/müşteri temsilcisi.png" alt="Teklif Al" class="img-fluid rounded shadow">
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
     <!-- Alt Bilgi -->
     <footer class="bg-dark text-white pt-5 pb-3">
@@ -348,6 +358,17 @@
     <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/language.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const form = document.getElementById('quoteForm');
+          if (form) {
+            form.addEventListener('submit', function (e) {
+              e.preventDefault();
+              gtag_report_conversion_form(form);
+            });
+          }
+        });
+      </script>
 </body>
 </html>
 

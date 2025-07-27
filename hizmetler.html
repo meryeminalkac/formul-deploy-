@@ -1,17 +1,26 @@
-<!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17352726058"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'AW-17352726058');
-  </script>
+        gtag('config', 'AW-17352726058');
+
+        function gtag_report_conversion_form(formElement) {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17352726058/Uxu7CJzamvEaEKqsttJA',
+                'event_callback': function () {
+                    formElement.submit();
+                }
+            });
+            return false;
+        }
+    </script>
     <title>Formül Nakliyat - Hizmetlerimiz</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -244,6 +253,7 @@
     </section>
 
     <!-- Teklif Formu -->
+    
     <section class="quote-section py-5">
         <div class="container">
             <div class="row">
@@ -252,7 +262,7 @@
                     <p class="mb-4" id="quote-desc">Hizmetlerimiz hakkında detaylı bilgi almak ve ücretsiz teklif için formu doldurun, size en kısa sürede dönüş yapalım.</p>
                     <div class="card border-0 shadow-sm">
                         <div class="card-body p-4">
-                            <form>
+                            <form id="quoteForm">
                                 <div class="mb-3">
                                     <label for="name" class="form-label" id="quote-name">Adınız / Soyadınız</label>
                                     <input type="text" class="form-control" id="name">
@@ -353,6 +363,17 @@
     <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.10/i18next.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/language.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const form = document.getElementById('quoteForm');
+          if (form) {
+            form.addEventListener('submit', function (e) {
+              e.preventDefault();
+              gtag_report_conversion_form(form);
+            });
+          }
+        });
+      </script>
 </body>
 </html>
 
