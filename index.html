@@ -12,6 +12,22 @@
 
     gtag('config', 'AW-17352726058');
   </script>
+  <!-- Event snippet for Diğer conversion -->
+    <script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17352726058/Uxu7CJzamvEaEKqsttJA',
+            'event_callback': callback
+        });
+        return false;
+        }
+    </script>
+  
 
     <title>Formül Nakliyat - Evden Eve Nakliyat ve Taşımacılık</title>
     
@@ -466,6 +482,23 @@
     <!-- Custom JS -->
     <script src="js/main.js"></script>
     <script src="js/language.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const form = document.getElementById('quoteForm');
+          if (form) {
+            form.addEventListener('submit', function (e) {
+              e.preventDefault(); // Sayfa yenilenmesin
+              gtag('event', 'conversion', {
+                'send_to': 'AW-17352726058/Uxu7CJzamvEaEKqsttJA',
+                'event_callback': function () {
+                  form.submit(); // Dönüşüm başarıyla gönderilince form gönderilir
+                }
+              });
+            });
+          }
+        });
+      </script>
+      
 </body>
 </html>
 
